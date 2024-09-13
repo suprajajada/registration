@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" >
+  </head>
+  <body>
+    <form action="Registration" id="f1">
+      <div id="main">
+        <div id="head"><h2>Registration form</h2></div>
+        <label for="Firstname" id="l1"><b>Firstname</b></label>
+        <div id="input">
+          <input
+            type="text"
+            name="Firstname"
+            placeholder="Enter your Firstname"
+          />
+        </div>
+        <label for="Lastname" id="l1"><b>Lastname</b></label>
+        <input type="text" name="Lastname" placeholder="Enter your Lastname" />
+        <label for="Email" id="l1"><b>Email</b></label>
+        <input type="email" name="Email" placeholder="Enter your Email" />
+        <label for="Password" id="l1"><b>Password</b></label>
+        <input type="password" name="Password" placeholder="Password" />
+        <label for="Date o Birth" id="l1"><b>Date of Birth</b></label>
+        <input type="date" /><br />
+        <label for="Gender" id="l1"><b>Select Gender</b></label>
+        <div id="select">
+          <select>
+            <option></option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+
+        <label for="Mobile" id="l1"><b>Mobile</b></label>
+        <input
+          type="text"
+          name="Mobile"
+          placeholder="Enter Mobile Number"
+        /><br />
+        <label for="Courses" id="l1"><b>Select Courses</b></label>
+        <div id="check">
+          <input type="checkbox" name="HTML" id="c1" />
+          <span>HTML</span><br />
+        </div>
+        <div id="check">
+          <input type="checkbox" name="CSS" id="c1" />
+          <span>CSS</span><br />
+        </div>
+        <div id="check">
+          <input type="checkbox" name="JAVASCRIPT" id="c1" />
+          <span>JAVASCRIPT</span><br />
+        </div>
+        <div id="sign">
+          <input type="button" value="Register" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

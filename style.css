@@ -1,0 +1,80 @@
+#f1 {
+    display: flex;
+    flex-direction: column; 
+    align-items:start;
+    justify-content: center;
+    gap: 10px;
+    background-color:skyblue;
+    border:5px gray solid;
+    padding: 20px ;
+    width:500px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.911);
+    #main{
+        display: flex;
+        flex-direction: column; 
+        align-items:start;
+        justify-content: center;
+        gap: 10px;
+
+    #head{
+        display: flex;
+        flex-direction: column; 
+        align-items:center;
+        justify-content: center;
+        gap: 10px;   
+        padding:10px 100px; 
+        text-align: center;
+    }
+    #l1{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #input{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+    #select{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    #check{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+    }
+        
+        #c1{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        }
+    
+    #sign{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding:10px 150px;
+        text-align: center;
+        width: 100px;
+      
+        
+     }
+    }
+}
+    
